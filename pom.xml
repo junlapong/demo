@@ -10,29 +10,29 @@
 	<description>Demo project for Spring Boot</description>
 	<packaging>war</packaging>
 
-    <parent>
-        <groupId>com.example</groupId>
+	<parent>
+		<groupId>com.example</groupId>
 		<artifactId>demo-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-        <relativePath/>
-    </parent>
+		<relativePath/>
+	</parent>
 	
-    <properties>
-        <main.parentDir>${project.basedir}${file.separator}..</main.parentDir>
+	<properties>
+		<main.parentDir>${project.basedir}${file.separator}..</main.parentDir>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
-    </properties>
+	</properties>
 
 	<dependencies>
 
 		<!--
 		<dependency>
-            <groupId>com.eforl</groupId>
-            <artifactId>eforl_core</artifactId>
-            <version>0.0.1</version>
-            <scope>system</scope>
-            <systemPath>${main.parentDir}/eforl_core/target/eforl_core-0.0.1.jar</systemPath>
-            <type>jar</type>
-        </dependency>
+			<groupId>com.eforl</groupId>
+			<artifactId>eforl_core</artifactId>
+			<version>0.0.1</version>
+			<scope>system</scope>
+			<systemPath>${main.parentDir}/eforl_core/target/eforl_core-0.0.1.jar</systemPath>
+			<type>jar</type>
+		</dependency>
 		-->
 
 		<dependency>
