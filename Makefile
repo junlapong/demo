@@ -31,7 +31,7 @@ db-clean:
 	@rm -rf ${DATA_DIR}
 
 note:
-	@echo mysql -u ${USER}
+	@echo mysql -P 4306
 	@echo source ./db/initdb.sql
 	@echo mysql -udev -pdev -Ddevdb
 	@echo show databases;
